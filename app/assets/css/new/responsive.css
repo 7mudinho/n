@@ -1,0 +1,233 @@
+@media screen and (max-width: 1455px){
+  #navbar .navbar-nav{
+    left:40%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #navbar .navbar-nav {
+    position: relative;
+    left: 0;
+    transform: translateX(0);
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .div-break {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  #produtos-mych .box .buy .button{
+    margin-left: 0;
+    text-align: center;
+    display: block;
+    padding-right: 1.9rem;
+  }
+
+  #produtos-mych .box .buy .button.features{
+    margin-top: .5rem;
+    padding-left: 0;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  #produtos-mych .box {
+    padding-bottom: 220px;
+}
+#produtos-mych .box .buy{
+  padding-bottom: .9rem;
+}
+}
+
+.danger {
+  color: #fc0000;
+}
+/* youtubemych */
+
+
+#youtubemych {
+  margin-top: 50px;
+  padding: 0.5rem;
+  padding-bottom: 4.3rem;
+
+  margin-top: -100px;
+  background-color: #151718;
+  position: relative;
+  border-top: 1px solid #3C3C3C;
+  border-bottom: 1px solid #3C3C3C;
+}
+
+#youtubemych h2 {
+  margin-bottom: .3rem;
+  font-weight: bold;
+  color: white;
+}
+
+#youtubemych p {
+  margin-bottom: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#youtubemych a {
+  margin: .5rem .5rem;
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+}
+
+/* ~youtubemych */
+
+
+@media screen and (max-width: 768px) {
+
+  footer .col-md-8 {
+    text-align: left !important;
+  }
+
+  footer .items ul {
+    margin-top: 1rem;
+    padding-left: 0;
+  }
+
+  #stats .col-md-4 {
+    text-align: left !important;
+    margin-bottom: 2rem;
+  }
+
+  #landing .content h1 {
+    font-size: 3.2rem;
+  }
+
+  #landing .content p {
+    font-size: 1rem;
+  }
+
+  #navbar.active {
+    width: 95%;
+    top: 10px;
+  }
+
+  #produtos-mych .gui-left {
+    left: 0;
+    top: 200px;
+  }
+
+  #produtos-mych .gui-right {
+    right: 0;
+    top: 50%;
+  }
+
+  #produtos-mych .overlay-top {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(186, 8, 8, 0.25) 0%, rgba(186, 8, 8, 0.05) 64.58%, rgba(186, 8, 8, 0)00%);
+  }
+
+  #produtos-mych .overlay-bottom {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(186, 8, 8, 0.15) 0%, rgba(186, 8, 8, 0.02) 64.58%, rgba(186, 8, 8, 0)00%);
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #landing .content h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #landing .content>span:nth-child(1) {
+    font-size: 1rem !important;
+  }
+
+  #landing .content .span-off {
+    font-size: 1.3rem;
+  }
+
+  #landing .overlay-left {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(186, 8, 8, 0.25) 0%, rgba(186, 8, 8, 0.1) 64.58%, rgba(186, 8, 8, 0) 100%);
+  }
+
+  #landing .overlay-right {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(186, 8, 8, 0.25) 0%, rgba(186, 8, 8, 0.1) 64.58%, rgba(186, 8, 8, 0) 100%);
+  }
+
+  #landing .content h1 {
+    font-size: 2.5rem;
+  }
+
+  #landing .content p {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #landing .content .button.read {
+    display: block;
+    padding-left: 0;
+    margin-top: .5rem;
+  }
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: var(--primary);
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: var(--primary);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#selectbuy:hover {
+  background-color: var(--primary);
+}
