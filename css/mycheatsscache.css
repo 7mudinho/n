@@ -1,0 +1,225 @@
+.center-img-mych {
+  display: block;
+  margin: 0px auto;
+  max-width: 263px;
+  border-radius: 14px;
+}
+
+.sub-titulo {
+  font-size: 60%;
+}
+
+.sub-titulo-color {
+  color: var(--primary);
+  text-shadow: 1px 1px 3px var(--primary);
+}
+
+.card-font {
+  font-size: 65%;
+}
+
+.card-color {
+  color: var(--primary);
+  font-size: 100%;
+}
+
+.titulo-check {
+  color: var(--primary);
+  font-size: 65%;
+}
+
+.status-center {
+  text-align: center;
+}
+
+.online {
+  color: #08BA92;
+}
+
+.offline {
+  color: #D16666;
+}
+
+.desenvolvimento {
+  color: #2F80ED;
+}
+
+.manutencao {
+  color: #F2C94C;
+}
+
+.sub-read-color {
+  font-size: 50%;
+  color: #6a6a6a;
+}
+
+.mych-yellow {
+  color: #dddb0c;
+}
+
+.caret {
+  color: #07b890;
+}
+
+.space {
+  padding-left: 40px;
+}
+
+.space38 {
+  padding-left: 38px;
+}
+
+.space55 {
+  padding-left: 55px;
+}
+
+.space-text {
+  padding-left: 20px;
+}
+
+.space50 {
+  padding-left: 58px;
+}
+
+.space63 {
+  padding-left: 63px;
+}
+
+.space11 {
+  padding-left: 11px;
+}
+
+.space9 {
+  padding-left: 9px;
+}
+
+.space7 {
+  padding-left: 90px;
+}
+
+.space99 {
+  padding-left: 45px;
+}
+
+.space-youtube {
+  padding-left: 10px;
+}
+
+.space100 {
+  padding-left: 44px;
+}
+
+.sub-read-purchase {
+  font-size: 100%;
+  color: #6a6a6a;
+}
+
+.youtube-mych {
+  width: 600px;
+  height: 350px;
+}
+
+.footer-mych {
+  text-align: center;
+  color: #ffffff;
+  font-size: 100%;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.termos {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+
+pext {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ptitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+palert {
+  color: #dddb0c;
+  font-weight: bold;
+}
+
+.cross {
+  padding-top: 100px;
+}
+
+.content-wrapper {
+  background: #000000;
+  padding: 1.875rem 1.75rem;
+  width: 100%;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.download {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.pad {
+  padding-top: 100px;
+}
+
+.paymentmethod-large {
+  background-image: url(../assets/img/payment-methods-large.png);
+  height: 25px;
+  margin: 5px;
+}
+
+.paymentmethod-visa {
+  height: 21px;
+  width: 63px;
+  background-position: 0 -49px;
+}
+
+.paymentmethod-master {
+  height: 35px;
+  width: 46px;
+  background-position: 0 -100px;
+}
+
+.paymentmethod-hipercard {
+  width: 56px;
+  background-position: 0 -300px;
+}
+
+.paymentmethod-amex {
+  height: 28px;
+  width: 28px;
+  background-position: 0 -150px;
+}
+
+.paymentmethod-diners {
+  height: 26px;
+  width: 96px;
+  background-position: 0 -200px;
+}
+
+.paymentmethod-elo {
+  height: 19px;
+  width: 30px;
+  background-position: 0 -350px;
+}
+
+.paymentmethod-melicard {
+  height: 24px;
+  width: 34px;
+  background-position: 0 -400px;
+}
+
+.flex-break {
+  flex-basis: 100%;
+  height: 0;
+}
